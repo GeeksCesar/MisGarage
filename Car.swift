@@ -20,6 +20,7 @@ class Coche: NSObject {
     var img : UIImage?
     
     
+    
     override var description : String {
       return "mi coche es \(marca!) \(modelo!) ,tiene \(caballos!) de fuerza y tiene \(km) de recorrido"
     }
@@ -29,7 +30,7 @@ class Coche: NSObject {
         caballos = 0
         marca = "Desconocido"
         modelo = "Desconocido"
-        color = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
+        color = #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
         km = 0.0
     }
     
@@ -53,11 +54,11 @@ class Coche: NSObject {
     
     
     func accelarate() {
-        print("acelerero")
+        print("Runnnnnnnnnn")
     }
     
     func maxSpped() -> Int {
-        return  120
+        return  140
     }
     
     func powerToWatts() -> Int {
